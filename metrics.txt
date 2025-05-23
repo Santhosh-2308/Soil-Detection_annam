@@ -1,0 +1,18 @@
+
+Classification Report
+               precision    recall  f1-score   support
+
+Alluvial soil       0.98      1.00      0.99        79
+   Black Soil       1.00      1.00      1.00        35
+    Clay soil       1.00      0.93      0.97        30
+     Red soil       1.00      1.00      1.00        40
+
+     accuracy                           0.99       184
+    macro avg       0.99      0.98      0.99       184
+ weighted avg       0.99      0.99      0.99       184
+
+Alluvial soil F1-Score: 0.9875
+Black Soil F1-Score: 1.0000
+Clay soil F1-Score: 0.9655
+Red soil F1-Score: 1.0000
+Minimum F1-Score: 0.9655

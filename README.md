@@ -75,13 +75,63 @@ Classification report generated using sklearn's classification_report method on 
 | Clay soil       | 1.00      | 1.00   | 1.00     | 20      |
 | Red soil        | 1.00      | 1.00   | 1.00     | 27      |
 | Accuracy        |           |        | 1.00     | 123     |
+Here's a **Setup and Run Instructions** section you can directly add to your `README.md`:
 
-## How to Run
+---
 
-1. Clone the repository
-2. Install dependencies
-3. Run the training script to train the model
-4. Generate submission.csv for final predictions
+## Setup & Run Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/soil-classification-cnn.git
+cd soil-classification-cnn
+
+###2. Create & Activate a Virtual Environment (optional but recommended)
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Download Dataset
+
+```bash
+bash data/download.sh
+```
+
+Make sure to set up your Kaggle API key if required.
+
+### 5. Train the Model
+
+Run the training notebook:
+
+```bash
+jupyter notebook notebooks/training.ipynb
+```
+
+### 6. Generate Predictions
+
+Run the inference notebook:
+
+```bash
+jupyter notebook notebooks/inference.ipynb
+```
+
+### 7. Submit Predictions
+
+After running inference, your `submission.csv` will be ready for upload to the competition platform.
+
+---
+
+Let me know if you'd like to tailor this further (e.g., if you're using a specific platform like Kaggle kernels or Google Colab).
+
 
 ## Acknowledgments
 

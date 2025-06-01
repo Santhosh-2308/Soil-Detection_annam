@@ -128,11 +128,6 @@ jupyter notebook notebooks/inference.ipynb
 
 After running inference, your `submission.csv` will be ready for upload to the competition platform.
 
----
-
-Let me know if you'd like to tailor this further (e.g., if you're using a specific platform like Kaggle kernels or Google Colab).
-
-
 ## Acknowledgments
 
 Competition hosted by Annam.ai  
